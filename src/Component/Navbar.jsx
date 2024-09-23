@@ -1,3 +1,5 @@
+import {Link, NavLink}from "react-router-dom";
+import Contact from "./Contact";
 function Navbar() {
   const resumePdfUrl = './src/Component/Bishnupada Kamila(CV).pdf';
     return(
@@ -30,7 +32,7 @@ function Navbar() {
       >Resume
       </a>
             <a href="#" class="rounded-md px-3 py-2 text-sm font-medium text-gray-300 hover:bg-gray-700 hover:text-white">Projects</a>
-            <a href="#" class="rounded-md px-3 py-2 text-sm font-medium text-gray-300 hover:bg-gray-700 hover:text-white">Contact</a>
+            <a href="Contact.jsx" class="rounded-md px-3 py-2 text-sm font-medium text-gray-300 hover:bg-gray-700 hover:text-white">Contact</a>
           </div>
         </div>
       </div>
