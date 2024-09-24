@@ -1,11 +1,16 @@
+import React from "react"
+import Technology from "./Technology"
+import Projects from "./Projects"
+
 function Me() {
     return(
+        <>
         <div className="flex ml-48 mt-28">
         <div class="h-200 w-200  ">
-            <img class="rounded-full" src="./src/Image/ItsMe-removebg-preview.png" alt="" />
+            <img /* class="rounded-full" */ src="./src/Image/ItsMe-removebg-preview.png" alt="" />
         </div>
         <div className="ml-20 mt-8">
-            <h1 className="font-serif text-white-800 text-6xl">
+            <h1 className="font-serif text-white text-6xl">
                 I am<br></br> Bishnupada Kamila
             </h1>
             <p class="font-sans text-white text-xl mt-6 w-[600px]">
@@ -13,7 +18,7 @@ function Me() {
                 Java, SpringBoot, React, Angular, Node, Express, MySQL, MongoDB.
                 I am proficient in various programming languages and technologies.
             </p>
-            <div class="flex items-center space-x-10 mt-10">
+            <div class="flex items-center space-x-10 mt-[80px]">
             <a
         href="./src/Component/Bishnupada Kamila(CV).pdf" // Update with your PDF path
         download="Bishnupada Kamila"
@@ -28,7 +33,13 @@ function Me() {
             </div>
 
         </div>
+        
+        
         </div>
+        <Technology/>
+        <Projects/>
+        </>
+        
     )
 }
 export default Me
