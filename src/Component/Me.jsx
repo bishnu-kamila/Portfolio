@@ -35,7 +35,12 @@ function Me() {
                 Java, SpringBoot, React, Angular, Node, Express, MySQL, MongoDB.
                 I am proficient in various programming languages and technologies.
             </motion.p>
-            <div class="flex items-center space-x-10 mt-[80px]">
+            <motion.div
+            variants={fadeIn("up",0.2)}
+            initial="hidden"
+            whileInView={"show"}
+            viewport={{once: false, amount: 0.7}}
+            class="flex items-center space-x-10 mt-[80px]">
             <a
         href="./src/Component/Bishnupada Kamila(CV).pdf" // Update with your PDF path
         download="Bishnupada Kamila"
@@ -47,7 +52,7 @@ function Me() {
                 <a href="https://www.linkedin.com/in/bishnupada-kamila-a16a19256"><img src="./src/Image/LinkedIn.webp" alt="" class="h-10 w-10" /></a>
                 <a href="https://www.hackerrank.com/profile/bishnu_kamila_1"><img src="./src/Image/HackerRank.webp" alt="" class="h-10 w-10" /></a>
                 <a href="https://www.codechef.com/users/bishnukamila1"><img src="./src/Image/Twiter.png" alt="" class="h-10 w-10" /></a>
-            </div>
+            </motion.div>
 
         </div>
         
