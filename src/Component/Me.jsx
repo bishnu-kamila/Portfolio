@@ -1,4 +1,6 @@
 import React from "react"
+import {motion} from 'framer-motion';
+import {fadeIn} from '../variants'
 import Technology from "./Technology"
 import Projects from "./Projects"
 
@@ -6,18 +8,33 @@ function Me() {
     return(
         <>
         <div className="flex ml-48 mt-28">
-        <div class="h-200 w-200  ">
+        <motion.div
+        variants={fadeIn("right",0.2)}
+        initial="hidden"
+        whileInView={"show"}
+        viewport={{once: false, amount: 0.7}}
+        class="h-200 w-200  ">
             <img /* class="rounded-full" */ src="./src/Image/ItsMe-removebg-preview.png" alt="" />
-        </div>
+        </motion.div>
         <div className="ml-20 mt-8">
-            <h1 className="font-serif text-white text-6xl">
+            <motion.h1
+            variants={fadeIn("left",0.2)}
+            initial="hidden"
+            whileInView={"show"}
+            viewport={{once: false, amount: 0.7}}
+            className="font-serif text-white text-6xl">
                 I am<br></br> Bishnupada Kamila
-            </h1>
-            <p class="font-sans text-white text-xl mt-6 w-[600px]">
+            </motion.h1>
+            <motion.p
+            variants={fadeIn("left",0.2)}
+            initial="hidden"
+            whileInView={"show"}
+            viewport={{once: false, amount: 0.7}}
+            class="font-sans text-white text-xl mt-6 w-[600px]">
                 Skilled in Fullstack Development based on the tech stack: 
                 Java, SpringBoot, React, Angular, Node, Express, MySQL, MongoDB.
                 I am proficient in various programming languages and technologies.
-            </p>
+            </motion.p>
             <div class="flex items-center space-x-10 mt-[80px]">
             <a
         href="./src/Component/Bishnupada Kamila(CV).pdf" // Update with your PDF path
