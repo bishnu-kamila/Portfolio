@@ -24,13 +24,8 @@ function Me() {
     return(
         <>
         <div className="flex ml-48 mt-28">
-        <div data-aos="zoom-out-right"
-        // variants={fadeIn("right",0.2)}
-        // initial="hidden"
-        // whileInView={"show"}
-        // viewport={{once: false, amount: 0.7}}
-        class="h-200 w-200  ">
-            <img /* class="rounded-full" */ src="./src/Image/ItsMe-removebg-preview.png" alt="" />
+        <div class="h-200 w-200  ">
+            <img data-aos="zoom-out-right" src="./src/Image/ItsMe-removebg-preview.png" alt="" />
         </div>
         <div className="ml-20 mt-8">
             <motion.h1

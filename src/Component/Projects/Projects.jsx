@@ -20,7 +20,9 @@ const Projects = ()=>{
         className="text-white text-6xl ml-[700px] mt-[100px] font-bold">Projects</h1>
         <div className="flex">
         <div className="text-white ml-[100px] mt-[70px] w-[670px]">
-            <h1 className="text-4xl ml-[100px] font-bold">Hostel Management System</h1>
+            <h1 
+             data-aos="zoom-out"
+            className="text-4xl ml-[100px] font-bold">Hostel Management System</h1>
             <p 
             data-aos="fade-right"
             className="text-white  mt-[25px]">
@@ -47,8 +49,8 @@ const Projects = ()=>{
             <div 
             data-aos="fade-up-right"
             className="flex text-white mt-[30px] text-2xl">
-                <h1 className="ml-[20px] font-bold">Technology Use: -</h1>
-                <h1 className="ml-[20px] font-bold">SpringBoot</h1>
+                <h1 className="ml-[1px] font-bold">Technology Use: -</h1>
+                <h1 className="ml-[15px] font-bold">SpringBoot</h1>
                 <h1 className="ml-[20px] font-bold">React</h1>
                 <h1 className="ml-[20px] font-bold">Telwind_Css</h1>
                 <h1 className="ml-[20px] font-bold">MySql</h1>
