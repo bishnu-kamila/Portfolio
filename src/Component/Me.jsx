@@ -2,20 +2,35 @@ import React from "react"
 import {motion} from 'framer-motion';
 import {fadeIn} from '../variants'
 import Technology from "./Technology"
-import Projects from "./Projects"
+import AOS from "aos";
+import "aos/dist/aos.css";
+import Projects from "./Projects/Projects";
 
 function Me() {
+
+
+    React.useEffect(() => {
+        AOS.init({
+          duration: 800,
+          easing: "ease-in-sine",
+          delay: 100,
+          offset: 300,
+        });
+        AOS.refresh();
+      }, []);
+
+
     return(
         <>
         <div className="flex ml-48 mt-28">
-        <motion.div
-        variants={fadeIn("right",0.2)}
-        initial="hidden"
-        whileInView={"show"}
-        viewport={{once: false, amount: 0.7}}
+        <div data-aos="zoom-out-right"
+        // variants={fadeIn("right",0.2)}
+        // initial="hidden"
+        // whileInView={"show"}
+        // viewport={{once: false, amount: 0.7}}
         class="h-200 w-200  ">
             <img /* class="rounded-full" */ src="./src/Image/ItsMe-removebg-preview.png" alt="" />
-        </motion.div>
+        </div>
         <div className="ml-20 mt-8">
             <motion.h1
             variants={fadeIn("left",0.2)}
