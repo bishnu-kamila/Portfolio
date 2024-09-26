@@ -1,6 +1,7 @@
 import React from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
+
 const Projects = ()=>{
     React.useEffect(() => {
         AOS.init({
@@ -14,7 +15,9 @@ const Projects = ()=>{
     return(
         <>
         <div>
-        <h1 className="text-white text-6xl ml-[700px] mt-[100px] font-bold">Projects</h1>
+        <h1 
+        data-aos="zoom-in"
+        className="text-white text-6xl ml-[700px] mt-[100px] font-bold">Projects</h1>
         <div className="flex">
         <div className="text-white ml-[100px] mt-[70px] w-[670px]">
             <h1 className="text-4xl ml-[100px] font-bold">Hostel Management System</h1>
@@ -63,7 +66,7 @@ const Projects = ()=>{
         
 
         </div>
-        <hr className="w-[1200px] ml-[150px]"></hr>
+        <div className="w-[1200px] h-[12px] ml-[150px] mt-[150px] bg-white rounded-2xl"></div>
         </>
     )
 }

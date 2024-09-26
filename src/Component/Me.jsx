@@ -5,6 +5,7 @@ import Technology from "./Technology"
 import AOS from "aos";
 import "aos/dist/aos.css";
 import Projects from "./Projects/Projects";
+import UPMS from "./Projects/UPMS";
 
 function Me() {
 
@@ -75,6 +76,7 @@ function Me() {
         </div>
         <Technology/>
         <Projects/>
+        <UPMS/>
         </>
         
     )
