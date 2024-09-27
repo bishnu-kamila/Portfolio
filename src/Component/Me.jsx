@@ -6,6 +6,7 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 import Projects from "./Projects/Projects";
 import UPMS from "./Projects/UPMS";
+import Education from "./Education";
 
 function Me() {
 
@@ -70,6 +71,7 @@ function Me() {
         
         </div>
         <Technology/>
+        <Education/>
         <Projects/>
         <UPMS/>
         </>
