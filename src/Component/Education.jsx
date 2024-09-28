@@ -4,16 +4,21 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 const Education = () =>{
     return(
         <>
-        <div className="text-white ml-[170px] mt-[200px] font-bold text-4xl">
-        <div className="flex">
+        <div className="text-white ml-[170px] mt-[200px] font-bold italic text-4xl">
+        <div 
+        data-aos="fade-down"
+        className="flex">
         <FontAwesomeIcon icon={faGraduationCap} />
             <h1 className="ml-[20px]">BSc : </h1>
             <h1>Fakir Mohon University,Balasore</h1>
         </div>
-        <div className="flex mt-[30px] ">
+        <div 
+        data-aos="fade-up"
+        className="flex mt-[30px] ">
             <img className="h-[50px] w-[50px]" src="./src/Image/Master.png" alt="" />
             <h1 className="ml-[15px]">MCA : </h1>
             <h1>Centurion university of Technology and Management, Bhubaneswar</h1>
+            
         </div>
         </div>
         </>
