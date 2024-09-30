@@ -7,6 +7,7 @@ import "aos/dist/aos.css";
 import Projects from "./Projects/Projects";
 import UPMS from "./Projects/UPMS";
 import Education from "./Education";
+import Footer from "./Footer";
 
 function Me() {
 
@@ -74,6 +75,7 @@ function Me() {
         <Education/>
         <Projects/>
         <UPMS/>
+        <Footer/>
         </>
         
     )

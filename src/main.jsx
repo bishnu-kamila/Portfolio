@@ -6,6 +6,7 @@ import Contact from './Component/Contact.jsx'
 import { createBrowserRouter, Router, RouterProvider } from 'react-router-dom'
 import Me from './Component/Me.jsx'
 import Technology from './Component/Technology.jsx'
+import Project from './Component/Project.jsx'
 
 const router = createBrowserRouter([
   {
@@ -16,6 +17,10 @@ const router = createBrowserRouter([
       {
         path : "contact",
         element : <Contact/>
+      },
+      {
+        path : "project",
+        element : <Project/>
       },
       {
         path : "",
