@@ -1,8 +1,24 @@
+import React from "react";
+import AOS from "aos";
+import "aos/dist/aos.css";
 const Parking = ()=>{
+
+    React.useEffect(() => {
+        AOS.init({
+        duration: 800,
+        easing: "ease-in-sine",
+        delay: 100,
+        offset: 300,
+        });
+        AOS.refresh();
+    }, []);
+
     return(
         <>
             <div>
-                <h1>ParkingManagementSystem</h1>
+                <h1
+                className="data-aos=zoom-in-left"
+                >ParkingManagementSystem</h1>
                 <div>
                     Make easy and safe Parking in online mode In this project we have the Admin , User and Security. Admin
                     have the Access to allow user account and allow for Vehicle Registration . User Create account and Modify
