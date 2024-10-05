@@ -8,6 +8,7 @@ import Projects from "./Projects/Projects";
 import UPMS from "./Projects/UPMS";
 import Education from "./Education";
 import Footer from "./Footer";
+import Parking from "./Projects/Parking";
 
 function Me() {
 
@@ -75,6 +76,7 @@ function Me() {
         <Education/>
         <Projects/>
         <UPMS/>
+        <Parking/>
         <Footer/>
         </>
         

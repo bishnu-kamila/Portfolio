@@ -24,11 +24,11 @@ const UPMS = ()=>{
             <div className="text-white ml-[100px] mt-[200px] ">
                 <h1
                 data-aos="zoom-in-left"
-                className="text-bold text-4xl">University Placement Management System</h1>
+                className="text-4xl font-bold">University Placement Management System</h1>
                 <p 
                 data-aos="zoom-in-right"
                 className="w-[700px] mt-[50px] text">
-                The University Placement Management System is a full-stack web application designed to streamline the process of managing campus recruitment activities. Built with Advanced Java (JSP/Servlets) for the backend, HTML, CSS, and JavaScript for the frontend, and MySQL as the database, the system aims to automate and simplify the placement process for students, administrators, and company HR.
+                The University Placement Management System is a full-stack web application designed to streamline the process of managing campus recruitment activities. Built with Advanced Java JSP/Servlets for the backend, HTML, CSS, and JavaScript for the frontend, and MySQL as the database, the system aims to automate and simplify the placement process for students, administrators, and company HR.
                 </p>
                 <h1
                 data-aos="zoom-up-right"
