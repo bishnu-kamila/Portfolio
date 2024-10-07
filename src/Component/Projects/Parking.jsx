@@ -15,18 +15,48 @@ const Parking = ()=>{
 
     return(
         <>
-            <div className="text-white w-[630px] ml-[100px]">
-                <h1
-                className="data-aos=zoom-in-left font-bold text-4xl ml-[30px] mt-[70px] "
-                >ParkingManagementSystem</h1>
-                <div className="mt-[30px]">
-                    Make easy and safe Parking in online mode In this project we have the Admin , User and Security. Admin
-                    have the Access to allow user account and allow for Vehicle Registration . User Create account and Modify
-                    Profile then ask permission for Parking Security have the access to allow the Vehicle at the time of Vehicle
-                    Registration and Give the permission to the user for parking in every day
-                </div>
+            <div className="flex">
+        <div className="text-white ml-[100px] mt-[70px] w-[670px]">
+            <h1 
+             data-aos="zoom-out"
+            className="text-4xl ml-[100px] font-bold">Parking Management System</h1>
+            <p 
+            data-aos="fade-right"
+            className="text-white  mt-[25px]">
+            A Parking Management System is a solution designed to streamline and automate the process of managing parking spaces. It helps in the efficient use of parking areas, whether in commercial, residential, or public spaces. Here's a brief overview of its core functions
+            </p>
+            <h1 
+            data-aos="fade-up"
+            className="mt-[15px] text-xl">Key features include:</h1>
+
+            <ul 
+            data-aos="fade-left"
+            className="mt-[15px] ml-[30px]">
+                <li>a. Automated Entry & Exit</li>
+                <li>b. Real-Time Space Availability</li>
+                <li>c. Security Monitoring</li>
+                <li>d. Data Analytics</li>
+                <li>e. Mobile App Integration</li>
+            </ul>
+            <p data-aos="fade-right">This system is widely used in shopping malls, airports, hospitals, offices, and city parking facilities to optimize parking space utilization and reduce congestion</p>
+            <div 
+            data-aos="fade-up-right"
+            className="flex text-white mt-[30px] text-2xl">
+                <h1 className="ml-[1px] font-bold">Technology Use: -</h1>
+                <h1 className="ml-[15px] font-bold">Java</h1>
+                <h1 className="ml-[20px] font-bold">Swing</h1>
+                <h1 className="ml-[20px] font-bold">JFrame</h1>
+                <h1 className="ml-[20px] font-bold">MySql</h1>
             </div>
-            <div className="w-[1200px] h-[12px] ml-[150px] mt-[150px] bg-white rounded-2xl"></div>
+        </div>
+        <div>
+        <div 
+        data-aos="zoom-in-left"
+        className="ml-[100px] mt-[200px] ">
+            <img className=" h-[400px] w-[600px]" src="./src/Image/Screenshot 2024-10-05 193942.png" alt="" />
+        </div>
+        </div>
+        </div>
         </>
     )
 }
