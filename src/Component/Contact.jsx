@@ -26,6 +26,10 @@ function Contact() {
             <FontAwesomeIcon icon={faLocationDot} style={{color: "#f7f7f8",}} />
             <h2 className="ml-[10px] mt-[-5px]">Bhubaneswar, Odisha</h2>
             </div>
+            <div className="flex">
+            <FontAwesomeIcon icon={faLocationDot} style={{color: "#f7f7f8",}} />
+            <h2 className="ml-[10px] mt-[-5px]">752050</h2>
+            </div>
             </motion.div>
         </div>
     )
