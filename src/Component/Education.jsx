@@ -10,7 +10,7 @@ const Education = () =>{
         className="flex">
         <FontAwesomeIcon icon={faGraduationCap} />
             <h1 className="ml-[20px]">BSc : </h1>
-            <h1>Fakir Mohon University,Balasore</h1>
+            <h1>FakirMohon University,Balasore</h1>
         </div>
         <div 
         data-aos="fade-up"
