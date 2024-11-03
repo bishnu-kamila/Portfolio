@@ -77,7 +77,6 @@ function Me() {
         <Projects/>
         <UPMS/>
         <Parking/>
-        <Footer/>
         </>
         
     )

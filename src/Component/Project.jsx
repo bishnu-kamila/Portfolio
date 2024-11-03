@@ -7,7 +7,6 @@ const Project = ()=>{
         <>
             <Projects/>
             <UPMS/>
-            <Footer/>
         </>
     )
 }
