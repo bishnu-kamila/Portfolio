@@ -12,6 +12,9 @@ const Profile = ()=>{
                     Java, SpringBoot, React, Angular, Node, Express, MySQL, MongoDB.
                     I am proficient in various programming languages and technologies.
                 </p>
+                <div>
+                    
+                </div>
             </div>
         </div>
         </>
