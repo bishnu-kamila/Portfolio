@@ -31,6 +31,7 @@ function Contact() {
             <h2 className="ml-[10px] mt-[-5px]">752050</h2>
             </div>
             </motion.div>
+            <h1>Bishnu</h1>
         </div>
     )
 }
