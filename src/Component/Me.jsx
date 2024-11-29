@@ -30,12 +30,12 @@ function Me() {
         <div class="h-200 w-200  ">
             <img data-aos="zoom-out-right" src="./src/Image/ItsMe-removebg-preview.png" alt="" />
         </div>
-        <div className="ml-20 mt-8">
+        <div className="ml-20 mt-8 border">
             <motion.h1
             variants={fadeIn("left",0.2)}
             initial="hidden"
             whileInView={"show"}
-            viewport={{once: false, amount: 0.7}}
+            viewport={{once: false, amount: 0.2}}
             className="font-serif text-white text-6xl">
                 I am<br></br> Bishnupada Kamila
             </motion.h1>
@@ -43,7 +43,7 @@ function Me() {
             variants={fadeIn("left",0.2)}
             initial="hidden"
             whileInView={"show"}
-            viewport={{once: false, amount: 0.7}}
+            viewport={{once: false, amount: 0.2}}
             class="font-sans text-white text-xl mt-6 w-[600px]">
                 Skilled in Fullstack Development based on the tech stack: 
                 Java, SpringBoot, React, Angular, Node, Express, MySQL, MongoDB.
@@ -72,11 +72,7 @@ function Me() {
         
         
         </div>
-        <Technology/>
-        <Education/>
-        <Projects/>
-        <UPMS/>
-        <Parking/>
+        
         </>
         
     )
