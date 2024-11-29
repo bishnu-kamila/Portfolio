@@ -25,7 +25,7 @@ function Me() {
 
 
     return(
-        <>
+        <div className="w-full" >
         <div className="flex ml-48 mt-28">
         <div class="h-200 w-200  ">
             <img data-aos="zoom-out-right" src="./src/Image/ItsMe-removebg-preview.png" alt="" />
@@ -73,7 +73,7 @@ function Me() {
         
         </div>
         
-        </>
+        </div>
         
     )
 }
