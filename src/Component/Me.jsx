@@ -30,7 +30,7 @@ function Me() {
         <div class="h-200 w-200  ">
             <img data-aos="zoom-out-right" src="./src/Image/ItsMe-removebg-preview.png" alt="" />
         </div>
-        <div className="ml-20 mt-8 border">
+        <div className="ml-20 mt-8">
             <motion.h1
             variants={fadeIn("left",0.2)}
             initial="hidden"
