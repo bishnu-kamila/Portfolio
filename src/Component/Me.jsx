@@ -1,14 +1,8 @@
 import React from "react"
 import {motion} from 'framer-motion';
 import {fadeIn} from '../variants'
-import Technology from "./Technology"
 import AOS from "aos";
 import "aos/dist/aos.css";
-import Projects from "./Projects/Projects";
-import UPMS from "./Projects/UPMS";
-import Education from "./Education";
-import Footer from "./Footer";
-import Parking from "./Projects/Parking";
 
 function Me() {
 
