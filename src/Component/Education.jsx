@@ -15,7 +15,7 @@ const Education = () =>{
         <div 
         data-aos="fade-up"
         className="flex mt-[30px] ">
-            <img className="h-[50px] w-[50px]" src="./src/Image/Master.png" alt="" />
+            <img className="h-[50px] w-[50px]" src="./Master.png" alt="" />
             <h1 className="ml-[5px]">MCA : </h1>
             <h1>Centurion university of Technology and Management, Bhubaneswar</h1>
             
