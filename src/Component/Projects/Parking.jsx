@@ -53,7 +53,7 @@ const Parking = ()=>{
         <div 
         data-aos="zoom-in-left"
         className="ml-[100px] mt-[200px] ">
-            <img className=" h-[400px] w-[600px]" src="./src/Image/Screenshot 2024-10-05 193942.png" alt="" />
+            <img className=" h-[400px] w-[600px]" src="./Screenshot 2024-10-05 193942.png" alt="" />
         </div>
         </div>
         </div>
