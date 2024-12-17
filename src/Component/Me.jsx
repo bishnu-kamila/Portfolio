@@ -56,10 +56,10 @@ function Me() {
       >
         Download PDF
       </a>
-                <a href="https://github.com/bishnu-kamila"><img src="./src/Image/Git.png" alt="" class="h-10 w-10" /></a>
-                <a href="https://www.linkedin.com/in/bishnupada-kamila-a16a19256"><img src="./src/Image/LinkedIn.webp" alt="" class="h-10 w-10" /></a>
-                <a href="https://www.hackerrank.com/profile/bishnu_kamila_1"><img src="./src/Image/HackerRank.webp" alt="" class="h-10 w-10" /></a>
-                <a href="https://www.codechef.com/users/bishnukamila1"><img src="./src/Image/Twiter.png" alt="" class="h-10 w-10" /></a>
+                <a href="https://github.com/bishnu-kamila"><img src="./Git.png" alt="" class="h-10 w-10" /></a>
+                <a href="https://www.linkedin.com/in/bishnupada-kamila-a16a19256"><img src="./LinkedIn.webp" alt="" class="h-10 w-10" /></a>
+                <a href="https://www.hackerrank.com/profile/bishnu_kamila_1"><img src="./HackerRank.webp" alt="" class="h-10 w-10" /></a>
+                <a href="https://www.codechef.com/users/bishnukamila1"><img src="./Twiter.png" alt="" class="h-10 w-10" /></a>
             </motion.div>
 
         </div>
