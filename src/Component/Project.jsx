@@ -1,12 +1,12 @@
 import Footer from "./Footer"
-import Projects from "./Projects/Projects"
+import Projects from "./Projects/ProjectHms"
 import UPMS from "./Projects/UPMS"
 import UPMS from "./Projects/Parking"
 
 const Project = ()=>{
     return(
         <>
-            <Projects/>
+            <ProjectHms/>
             <UPMS/>
             <Parking/>
         </>
