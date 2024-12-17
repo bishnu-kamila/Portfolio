@@ -1,7 +1,7 @@
 import Footer from "./Footer"
 import Projects from "./Projects/ProjectHms"
 import UPMS from "./Projects/UPMS"
-import UPMS from "./Projects/Parking"
+import Parking from "./Projects/Parking"
 
 const Project = ()=>{
     return(
