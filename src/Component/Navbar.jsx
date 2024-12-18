@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import Contact from "./Contact";
 function Navbar() {
-  const resumePdfUrl = "./Bishnupada Kamila(CV).pdf";
+  const resumePdfUrl = "./Bishnupada Kamila Resume.pdf";
   return (
     <nav class="bg-gray-800 bg-black-500">
       <div class="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">
