@@ -19,12 +19,12 @@ const router = createBrowserRouter([
         element : <Contact/>
       },
       {
-        path : "project",
-        element : <Project/>
-      },
-      {
         path : "",
         element : <Me/>
+      },
+      {
+        path : "project",
+        element : <Project/>
       }
     ]
   }
