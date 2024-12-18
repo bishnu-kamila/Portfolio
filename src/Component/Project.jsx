@@ -1,4 +1,4 @@
-import Footer from "./Footer"
+
 import ProjectHms from "./Projects/ProjectHms"
 import UPMS from "./Projects/UPMS"
 import Parking from "./Projects/Parking"
