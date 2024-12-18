@@ -93,7 +93,7 @@ function Navbar() {
                   <span class="sr-only">Open user menu</span>
                   <img
                     className="h-12 w-12 rounded-full"
-                    src="./src/Image/ItsMe-removebg-preview.png"
+                    src="./ItsMe-removebg-preview.png"
                     alt=""
                   />
                 </button>

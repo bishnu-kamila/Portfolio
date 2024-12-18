@@ -20,12 +20,7 @@ function App() {
         <Home/>
         <Navbar />
         <Outlet/>
-        <Technology/>
-        <Education/>
-        <Projects/>
-        <UPMS/>
-        <Parking/>
-        <Footer/>
+        
       </>
   );
 }

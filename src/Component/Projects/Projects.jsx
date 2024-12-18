@@ -60,7 +60,7 @@ const Projects = ()=>{
         <div 
         data-aos="zoom-in-left"
         className=" h-[300px] w-[600px] ml-[100px] mt-[200px] ">
-            <img src="./src/Image/Screenshot 2024-09-26 135345.png" alt="" />
+            <img src="./Screenshot 2024-09-26 135345.png" alt="" />
         </div>
         </div>
         </div>
