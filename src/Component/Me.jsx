@@ -56,7 +56,7 @@ function Me() {
             viewport={{once: false, amount: 0.7}}
             class="flex items-center space-x-10 mt-[80px]">
             <a
-        href="./Bishnupada Kamila(CV).pdf" // Update with your PDF path
+        href="./Bishnupada Kamila Resume.pdf" // Update with your PDF path
         download="Bishnupada Kamila"
         className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
       >
