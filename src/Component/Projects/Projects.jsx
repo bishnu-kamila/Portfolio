@@ -55,6 +55,9 @@ const Projects = ()=>{
                 <h1 className="ml-[20px] font-bold">Telwind_Css</h1>
                 <h1 className="ml-[20px] font-bold">MySql</h1>
             </div>
+
+
+
         </div>
         <div>
         <div 
@@ -62,13 +65,21 @@ const Projects = ()=>{
         className=" h-[300px] w-[600px] ml-[100px] mt-[200px] ">
             <img src="./Screenshot 2024-09-26 135345.png" alt="" />
         </div>
+        <div data-aos="fade-left"
+ className="flex mt-[250px] ml-[200px] text-2xl font-bold">
+    
+        <button className="bg-yellow-500 rounded-[20px] py-2 px-4">Source-Code</button>
+    
+        <button className="ml-[40px] bg-yellow-500 rounded-[20px] py-2 px-4">Open</button>
+    
+</div>
         </div>
         </div>
 
         
 
         </div>
-        <div className="w-[1200px] h-[12px] ml-[150px] mt-[150px] bg-white rounded-2xl"></div>
+        <div className="w-[1200px] h-[12px] ml-[150px] mt-[60px] bg-white rounded-2xl"></div>
         </>
     )
 }

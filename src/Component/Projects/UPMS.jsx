@@ -20,7 +20,19 @@ const UPMS = ()=>{
             className=" h-[300px] w-[600px] ml-[100px] mt-[500px] "
             >
                 <img src="./Screenshot 2024-09-26 171419.png" alt="" />
+
+                <div data-aos="fade-left"
+ className="flex mt-[50px] ml-[70px] text-2xl font-bold">
+    
+        <button className="bg-yellow-500 rounded-[20px] py-2 px-4">Source-Code</button>
+    
+        <button className="ml-[40px] bg-yellow-500 rounded-[20px] py-2 px-4">Open</button>
+    
+</div>
             </div>
+
+                
+
             <div className="text-white ml-[100px] mt-[200px] ">
                 <h1
                 data-aos="zoom-in-left"
