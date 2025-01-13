@@ -112,7 +112,7 @@ const UPMS = ()=>{
             </div>
         </div>
 
-        <div className="w-[1200px] h-[12px] ml-[150px] mt-[150px] bg-white rounded-2xl"></div>
+        <div className="w-[1200px] h-[12px] ml-[150px] mt-[70px] bg-white rounded-2xl"></div>
         </>
     )
 }
