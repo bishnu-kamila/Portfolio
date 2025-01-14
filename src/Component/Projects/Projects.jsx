@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import AOS from "aos";
 import "aos/dist/aos.css";
 
@@ -68,7 +69,7 @@ const Projects = ()=>{
         <div data-aos="fade-left"
  className="flex mt-[250px] ml-[200px] text-2xl font-bold">
     
-        <button className="bg-yellow-500 rounded-[20px] py-2 px-4">Source-Code</button>
+        <Link to="https://github.com/bishnu-kamila/HostelManagementSystem"><button className="bg-yellow-500 rounded-[20px] py-2 px-4">Source-Code</button></Link>
     
         <button className="ml-[40px] bg-yellow-500 rounded-[20px] py-2 px-4">Open</button>
     
