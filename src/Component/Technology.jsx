@@ -22,6 +22,7 @@ const Technology = () => {
         <FontAwesomeIcon icon={faJs} style={{color: "#FFD43B",}} size="3x" className="ml-[40px]"/>
         <FontAwesomeIcon icon={faHtml5} style={{color: "#f56147",}} size="3x" className="ml-[40px]"/>
         <FontAwesomeIcon icon={faCss3Alt} style={{color: "#4827ec",}} size="3x" className="ml-[40px]"/>
+        <FontAwesomeIcon icon={faC} style={{color: "#74C0FC",}} size="3x" className="ml-[40px]"/>
         <FontAwesomeIcon icon={faNode} style={{color: "#74C0FC",}} size="3x" className="ml-[40px]"/>
         <img src="./sql-removebg-preview.png" alt="" className="h-12 w-15 ml-[40px]"/>
       </div>
