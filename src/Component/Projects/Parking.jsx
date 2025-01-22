@@ -15,9 +15,9 @@ const Parking = () => {
 
   return (
     <>
-      <div className="flex flex-col lg:flex-row w-full px-4 lg:px-16 mt-20">
+      <div className="flex flex-col lg:flex-row items-center justify-between w-full px-4 lg:px-16 mt-20">
         {/* Text Content */}
-        <div className="text-white lg:w-2/3 mb-10 lg:mb-0">
+        <div className="text-white lg:flex-1 lg:mr-8">
           <h1
             data-aos="zoom-out"
             className="text-3xl sm:text-4xl lg:text-5xl font-bold text-center lg:text-left"
@@ -31,7 +31,7 @@ const Parking = () => {
             A Parking Management System is a solution designed to streamline
             and automate the process of managing parking spaces. It helps in the
             efficient use of parking areas, whether in commercial, residential,
-            or public spaces. Here's a brief overview of its core functions
+            or public spaces. Here's a brief overview of its core functions.
           </p>
           <h2
             data-aos="fade-up"
@@ -83,14 +83,15 @@ const Parking = () => {
         </div>
 
         {/* Image */}
-        <div className="w-full lg:w-1/3 flex justify-center lg:justify-start mt-8 lg:mt-0">
-          <div data-aos="zoom-in-left">
-            <img
-              className="h-auto w-[80%] lg:w-[100%] rounded-lg"
-              src="./Screenshot 2024-10-05 193942.png"
-              alt="Parking System Screenshot"
-            />
-          </div>
+        <div
+          data-aos="zoom-in-left"
+          className="lg:flex-1 flex justify-center lg:justify-end mt-8 lg:mt-0"
+        >
+          <img
+            className="h-auto w-[80%] lg:w-[90%] rounded-lg"
+            src="./Screenshot 2024-10-05 193942.png"
+            alt="Parking System Screenshot"
+          />
         </div>
       </div>
 
