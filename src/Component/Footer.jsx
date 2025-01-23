@@ -4,6 +4,7 @@ import { motion } from "framer-motion";
 import { fadeIn } from "../variants";
 
 import React from "react";
+import FinalTouch from "./FinalTouch";
 
 const Footer = () => {
   return (
@@ -40,7 +41,7 @@ const Footer = () => {
           viewport={{ once: false, amount: 0.7 }}
           className="text-white text-4xl sm:text-5xl lg:text-7xl font-bold mt-8 lg:mt-0"
         >
-          <h1>That's all about Me</h1>
+          <FinalTouch/>
         </motion.div>
       </div>
     </>

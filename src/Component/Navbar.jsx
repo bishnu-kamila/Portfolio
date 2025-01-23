@@ -49,6 +49,7 @@ function Navbar() {
           <div class="flex flex-1 items-center justify-center sm:items-stretch sm:justify-start">
             <div class="flex flex-shrink-0 items-center"></div>
             <div class="hidden sm:ml-6 sm:block">
+              
               <div class="flex space-x-4">
                 <Link
                   to="/"
@@ -89,13 +90,12 @@ function Navbar() {
                   aria-expanded="false"
                   aria-haspopup="true"
                 >
-                  <span class="absolute -inset-1.5"></span>
-                  <span class="sr-only">Open user menu</span>
-                  <img
+                  
+                  <Link to="/profile"><img
                     className="h-12 w-12 rounded-full"
                     src="./ItsMe-removebg-preview.png"
                     alt=""
-                  />
+                  /></Link>
                 </button>
               </div>
               
