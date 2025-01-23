@@ -120,7 +120,7 @@ const Projects = () => {
       </div>
 
       {/* Divider */}
-      <div className="w-full h-[12px] bg-white rounded-2xl mt-16"></div>
+      <div className="ml-[30px] w-[1450px] h-[10px] bg-white rounded-2xl mt-16"></div>
     </>
   );
 };
