@@ -3,7 +3,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 const Education = () => {
   return (
-    <div className="w-full px-4 mt-20">
+    <div className="w-full px-4 mt-20 ml-[200px]">
       {/* Section for Education */}
       <div className="text-white font-bold italic text-3xl sm:text-4xl md:text-5xl">
         <div
