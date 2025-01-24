@@ -15,15 +15,16 @@ const Education = () => {
           <h1 className="text-lg sm:text-xl">FakirMohon University, Balasore</h1>
         </div>
         <div
-          data-aos="fade-up"
-          className="ml-[30px] flex items-center justify-center md:justify-start mt-8 space-x-4"
-        >
-          <img className="h-12 w-12 sm:h-16 sm:w-16" src="./Master.png" alt="MCA" />
-          <h1 className="text-lg sm:text-xl">MCA : </h1>
-          <h1 className="text-lg sm:text-xl">
-            Centurion University of Technology and Management, Bhubaneswar
-          </h1>
-        </div>
+  data-aos="fade-up"
+  className="ml-[30px] flex items-center justify-center md:justify-start mt-8 space-x-4"
+>
+  <img className="h-12 w-12 sm:h-16 sm:w-16" src="./Master.png" alt="MCA" />
+  <h1 className="text-lg sm:text-xl">MCA :</h1>
+  <h1 className="text-lg sm:text-xl ml-2">
+    Centurion University of Technology and Management, Bhubaneswar
+  </h1>
+</div>
+
       </div>
     </div>
   );
