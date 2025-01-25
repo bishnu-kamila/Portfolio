@@ -11,7 +11,7 @@ const Navbar = () => {
         <div className="flex h-16 items-center justify-between">
           {/* Left Side: Logo or Title */}
           <div className="flex items-center">
-            <h1 className="ml-[-40px] text-white text-lg font-bold">Portfolio</h1>
+            <h1 className="text-white text-lg font-bold">Portfolio</h1>
           </div>
 
           {/* Right Side: Desktop Links */}
