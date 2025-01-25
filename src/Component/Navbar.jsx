@@ -1,109 +1,139 @@
-import React from "react";
+import React, { useState } from "react";
 import { Link } from "react-router-dom";
-import Contact from "./Contact";
-function Navbar() {
+
+const Navbar = () => {
+  const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
   const resumePdfUrl = "./src/Component/Bishnupada Kamila(CV).pdf";
+
   return (
-    <nav class="bg-gray-800 bg-black-500">
-      <div class="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">
-        <div class="relative flex h-16 items-center justify-between">
-          <div class="absolute inset-y-0 left-0 flex items-center sm:hidden">
+    <nav className="bg-gray-800">
+      <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+        <div className="flex h-16 items-center justify-between">
+          {/* Left Side: Logo or Title */}
+          <div className="flex items-center">
+            <h1 className="ml-[-40px] text-white text-lg font-bold">Portfolio</h1>
+          </div>
+
+          {/* Right Side: Desktop Links */}
+          <div className="ml-[-700px] hidden sm:flex sm:space-x-4">
+            <Link
+              to="/"
+              className="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
+            >
+              Home
+            </Link>
+            <Link
+              to={resumePdfUrl}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
+            >
+              Resume
+            </Link>
+            <Link
+              to="/Project"
+              className="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
+            >
+              Project
+            </Link>
+            <Link
+              to="/contact"
+              className="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
+            >
+              Contact
+            </Link>
+          </div>
+
+          {/* Profile Image */}
+          <div className="hidden sm:block">
+            <Link to="/profile">
+              <img
+                className="h-10 w-10 rounded-full"
+                src="./ItsMe-removebg-preview.png"
+                alt="Profile"
+              />
+            </Link>
+          </div>
+
+          {/* Mobile Menu Button */}
+          <div className="sm:hidden">
             <button
               type="button"
-              class="relative inline-flex items-center justify-center rounded-md p-2 text-gray-400 hover:bg-gray-700 hover:text-white focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white"
+              className="text-gray-400 hover:text-white focus:outline-none focus:ring-2 focus:ring-white"
               aria-controls="mobile-menu"
-              aria-expanded="false"
+              aria-expanded={isMobileMenuOpen}
+              onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
             >
-              <span class="absolute -inset-0.5"></span>
-              <span class="sr-only">Open main menu</span>
               <svg
-                class="block h-6 w-6"
+                className="h-6 w-6"
+                xmlns="http://www.w3.org/2000/svg"
                 fill="none"
                 viewBox="0 0 24 24"
-                stroke-width="1.5"
                 stroke="currentColor"
                 aria-hidden="true"
               >
-                <path
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5"
-                />
-              </svg>
-              <svg
-                class="hidden h-6 w-6"
-                fill="none"
-                viewBox="0 0 24 24"
-                stroke-width="1.5"
-                stroke="currentColor"
-                aria-hidden="true"
-              >
-                <path
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  d="M6 18L18 6M6 6l12 12"
-                />
+                {isMobileMenuOpen ? (
+                  <path
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth={2}
+                    d="M6 18L18 6M6 6l12 12"
+                  />
+                ) : (
+                  <path
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth={2}
+                    d="M3 6h18M3 12h18m-18 6h18"
+                  />
+                )}
               </svg>
             </button>
           </div>
-          <div class="flex flex-1 items-center justify-center sm:items-stretch sm:justify-start">
-            <div class="flex flex-shrink-0 items-center"></div>
-            <div class="hidden sm:ml-6 sm:block">
-              
-              <div class="flex space-x-4">
-                <Link
-                  to="/"
-                  className="rounded-md px-3 py-2 text-sm font-medium text-gray-300 hover:bg-gray-700 hover:text-white"
-                >
-                  Home
-                </Link>
-                <Link
-                  to={resumePdfUrl}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="rounded-md px-3 py-2 text-sm font-medium text-gray-300 hover:bg-gray-700 hover:text-white"
-                >
-                  Resume
-                </Link>
-                <Link
-                  to="/Project"
-                  className="rounded-md px-3 py-2 text-sm font-medium text-gray-300 hover:bg-gray-700 hover:text-white"
-                >
-                  Project
-                </Link>
-                <Link
-                  to="/contact"
-                  className="rounded-md px-3 py-2 text-sm font-medium text-gray-300 hover:bg-gray-700 hover:text-white"
-                >
-                  Contact
-                </Link>
-              </div>
-            </div>
-          </div>
-          <div class="absolute inset-y-0 right-0 flex items-center pr-2 sm:static sm:inset-auto sm:ml-6 sm:pr-0">
-            <div class="relative ml-3">
-              <div>
-                <button
-                  type="button"
-                  class="relative flex rounded-full bg-gray-800 text-sm focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-gray-800"
-                  id="user-menu-button"
-                  aria-expanded="false"
-                  aria-haspopup="true"
-                >
-                  
-                  <Link to="/profile"><img
-                    className="h-12 w-12 rounded-full"
-                    src="./ItsMe-removebg-preview.png"
-                    alt=""
-                  /></Link>
-                </button>
-              </div>
-              
-            </div>
-          </div>
         </div>
       </div>
+
+      {/* Mobile Menu */}
+      {isMobileMenuOpen && (
+        <div className="sm:hidden" id="mobile-menu">
+          <div className="space-y-1 px-2 pt-2 pb-3">
+            <Link
+              to="/"
+              className="block text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-base font-medium"
+            >
+              Home
+            </Link>
+            <Link
+              to={resumePdfUrl}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="block text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-base font-medium"
+            >
+              Resume
+            </Link>
+            <Link
+              to="/Project"
+              className="block text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-base font-medium"
+            >
+              Project
+            </Link>
+            <Link
+              to="/contact"
+              className="block text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-base font-medium"
+            >
+              Contact
+            </Link>
+            <Link
+              to="/profile"
+              className="block text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-base font-medium"
+            >
+              Profile
+            </Link>
+          </div>
+        </div>
+      )}
     </nav>
   );
-}
+};
+
 export default Navbar;
