@@ -3,20 +3,20 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 const Education = () => {
   return (
-    <div className="ml-[250px] w-full px-4 mt-16 md:mt-20">
+    <div className="flex flex-col items-center justify-center min-h-screen px-4">
       {/* Section for Education */}
-      <div className="text-white font-bold italic text-2xl sm:text-3xl md:text-4xl">
+      <div className="text-white font-bold italic text-center text-2xl sm:text-3xl md:text-4xl space-y-8">
         {/* Bachelor's Degree Section */}
         <div
           data-aos="fade-down"
-          className="flex flex-wrap items-center justify-center md:justify-start space-x-2 sm:space-x-4"
+          className="flex flex-wrap items-center justify-center gap-4"
         >
           <FontAwesomeIcon
             icon={faGraduationCap}
             className="text-xl sm:text-2xl md:text-3xl"
           />
           <h1 className="text-base sm:text-lg md:text-xl">BSc:</h1>
-          <h1 className="text-base sm:text-lg md:text-xl">
+          <h1 className="text-base sm:text-lg md:text-xl text-center">
             FakirMohon University, Balasore
           </h1>
         </div>
@@ -24,7 +24,7 @@ const Education = () => {
         {/* Master's Degree Section */}
         <div
           data-aos="fade-up"
-          className="flex flex-wrap items-center justify-center md:justify-start mt-6 sm:mt-8 space-x-2 sm:space-x-4"
+          className="flex flex-wrap items-center justify-center gap-4"
         >
           <img
             className="h-10 w-10 sm:h-12 sm:w-12 md:h-16 md:w-16 object-contain"
@@ -32,7 +32,7 @@ const Education = () => {
             alt="MCA"
           />
           <h1 className="text-base sm:text-lg md:text-xl">MCA:</h1>
-          <h1 className="text-base sm:text-lg md:text-xl">
+          <h1 className="text-base sm:text-lg md:text-xl text-center">
             Centurion University of Technology and Management, Bhubaneswar
           </h1>
         </div>
