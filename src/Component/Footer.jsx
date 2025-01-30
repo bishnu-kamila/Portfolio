@@ -9,7 +9,7 @@ import FinalTouch from "./FinalTouch";
 const Footer = () => {
   return (
     <>
-      <div className="flex flex-col lg:flex-row text-white ml-[20px] lg:ml-[100px] mt-[80px]">
+      <div className="flex flex-col lg:flex-row text-white ml-[20px] mb-[50px] lg:ml-[100px] mt-[80px]">
         {/* Contact Info Section */}
         <motion.div
           variants={fadeIn("right", 0.2)}

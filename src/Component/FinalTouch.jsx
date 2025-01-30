@@ -1,7 +1,7 @@
 const FinalTouch = ()=>{
     return(
         <>
-            <h1>That's all about Me</h1>
+            <h1 className="mt-[70px] ml-[100px] ">That's all about Me</h1>
         </>
     )
 }
