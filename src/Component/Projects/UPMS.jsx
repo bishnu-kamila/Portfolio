@@ -141,9 +141,9 @@ const UPMS = () => {
             data-aos="fade-left"
             className="flex justify-center lg:justify-start mt-8 text-2xl font-bold"
           >
-            <button className="bg-yellow-500 rounded-2xl py-2 px-6 mb-4 lg:mb-0">
+            <a href="https://github.com/bishnu-kamila/Placement_Management_System"><button className="bg-yellow-500 rounded-2xl py-2 px-6 mb-4 lg:mb-0">
               Source Code
-            </button>
+            </button></a>
             <button className="ml-6 bg-yellow-500 rounded-2xl py-2 px-6 mb-4 lg:mb-0">
               Open
             </button>
