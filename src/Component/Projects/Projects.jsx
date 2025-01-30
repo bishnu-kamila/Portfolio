@@ -24,7 +24,7 @@ const Projects = () => {
         </h1>
         <div className="flex flex-col lg:flex-row items-center justify-between mt-10 lg:space-x-16">
           {/* Text Content */}
-          <div className="text-white flex-1 max-w-[50%]">
+          <div className="text-white flex-1 max-w-[100%]">
             <h1
               data-aos="zoom-out"
               className="text-3xl sm:text-4xl lg:text-5xl font-bold mt-8 lg:mt-0"
