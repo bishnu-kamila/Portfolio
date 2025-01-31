@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 const Navbar = () => {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
-  const resumePdfUrl = "./Bishnupada Kamila(CV).pdf";
+  const resumePdfUrl = "./Bishnupada Kamila CV.pdf";
 
   return (
     <nav className="bg-gray-800">
