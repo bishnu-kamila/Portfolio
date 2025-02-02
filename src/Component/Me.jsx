@@ -24,14 +24,13 @@ function Me() {
 
     return (
         <div className="w-full">
-            {/* Main Section */}
             <div className="flex flex-col md:flex-row items-center md:ml-48 mt-20 px-4">
-                {/* Image */}
+                
                 <div className="h-80 w-80 md:h-200 md:w-200 mb-8 md:mb-0">
                     <img data-aos="zoom-out-right" src="./ItsMe-removebg-preview.png" alt="Bishnupada Kamila" className="w-full h-auto" />
                 </div>
 
-                {/* Text Content */}
+                
                 <div className="text-center md:text-left md:ml-20 mt-8">
                     <motion.h1
                         variants={fadeIn("left", 0.2)}

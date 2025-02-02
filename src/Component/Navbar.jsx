@@ -9,12 +9,9 @@ const Navbar = () => {
     <nav className="bg-gray-800">
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <div className="flex h-16 items-center justify-between">
-          {/* Left Side: Logo or Title */}
           <div className="flex items-center">
             <h1 className="text-white text-lg font-bold">Portfolio</h1>
           </div>
-
-          {/* Right Side: Desktop Links */}
           <div className="ml-[-700px] hidden sm:flex sm:space-x-4">
             <Link
               to="/"
