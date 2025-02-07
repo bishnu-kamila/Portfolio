@@ -51,11 +51,8 @@ function Me() {
                         I am proficient in various programming languages and technologies.
                     </motion.p>
 
-                    <motion.div
-                        variants={fadeIn("up", 0.2)}
-                        initial="hidden"
-                        whileInView={"show"}
-                        viewport={{ once: false, amount: 0.7 }}
+                    <div
+                        
                         className="flex justify-center md:justify-start space-x-6 mt-8">
                         <a
                             href="./Bishnupada Kamila Resume.pdf"
@@ -65,23 +62,25 @@ function Me() {
                         </a>
                         <div className="flex space-x-4">
     <a href="https://github.com/bishnu-kamila" target="_blank" rel="noopener noreferrer">
-        <img src="./Git.png" alt="GitHub" className="h-10 w-10" />
+        <img src="/Git.png" alt="GitHub" className="h-10 w-10 cursor-pointer" />
     </a>
 
     <a href="https://www.linkedin.com/in/bishnupada-kamila-a16a19256" target="_blank" rel="noopener noreferrer">
-        <img src="./LinkedIn.webp" alt="LinkedIn" className="h-10 w-10" />
+        <img src="/LinkedIn.webp" alt="LinkedIn" className="h-10 w-10 cursor-pointer" />
     </a>
 
     <a href="https://www.hackerrank.com/profile/bishnu_kamila_1" target="_blank" rel="noopener noreferrer">
-        <img src="./HackerRank.webp" alt="HackerRank" className="h-10 w-10" />
+        <img src="/HackerRank.webp" alt="HackerRank" className="h-10 w-10 cursor-pointer" />
     </a>
 
     <a href="https://www.codechef.com/users/bishnukamila1" target="_blank" rel="noopener noreferrer">
-        <img src="./Twiter.png" alt="Twitter" className="h-10 w-10" />
+        <img src="/Twiter.png" alt="Twitter" className="h-10 w-10 cursor-pointer" />
     </a>
 </div>
 
-                    </motion.div>
+
+
+                    </div>
                 </div>
             </div>
 
