@@ -64,11 +64,11 @@ function Me() {
                             Download PDF
                         </a>
                         <div className="flex space-x-4">
-                            <a href="https://github.com/bishnu-kamila">
+                        <a href="https://github.com/bishnu-kamila">
                                 <img src="./Git.png" alt="GitHub" className="h-10 w-10" />
                             </a>
                             <a href="https://www.linkedin.com/in/bishnupada-kamila-a16a19256">
-                                <img src="./LinkedIn.webp" alt="LinkedIn" className="h-10 w-10" />
+                            <img src="./LinkedIn.webp" alt="LinkedIn" className="h-10 w-10" />
                             </a>
                             <a href="https://www.hackerrank.com/profile/bishnu_kamila_1">
                                 <img src="./HackerRank.webp" alt="HackerRank" className="h-10 w-10" />
