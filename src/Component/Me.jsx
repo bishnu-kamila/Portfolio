@@ -64,7 +64,7 @@ function Me() {
 </a>
 
 <div className="flex space-x-4">
-    <a href="https://github.com/bishnu-kamila" target="_blank" rel="noopener noreferrer" className="block">
+    <a href="https://github.com/bishnu-kamila" >
         <img src="/Git.png" alt="GitHub" className="h-10 w-10 block" />
     </a>
 
