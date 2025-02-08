@@ -54,29 +54,34 @@ function Me() {
                     <div
                         
                         className="flex justify-center md:justify-start space-x-6 mt-8">
-                        <a
-                            href="./Bishnupada Kamila Resume.pdf"
-                            download="Bishnupada Kamila"
-                            className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
-                            Download PDF
-                        </a>
-                        <div className="flex space-x-4">
-    <a href="https://github.com/bishnu-kamila" target="_blank" rel="noopener noreferrer">
-        <img src="/Git.png" alt="GitHub" className="h-10 w-10 cursor-pointer" />
+                        
+                        <div className="flex justify-center md:justify-start space-x-6 mt-8">
+    <a
+        href="/Bishnupada Kamila Resume.pdf"  // Remove "./" to reference public folder
+        download="Bishnupada_Kamila_Resume"
+        className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
+        Download PDF
     </a>
+    
+    <div className="flex space-x-4">
+        <a href="https://github.com/bishnu-kamila" target="_blank" rel="noopener noreferrer">
+            <img src="/Git.png" alt="GitHub" className="h-10 w-10 cursor-pointer" />
+        </a>
 
-    <a href="https://www.linkedin.com/in/bishnupada-kamila-a16a19256" target="_blank" rel="noopener noreferrer">
-        <img src="/LinkedIn.webp" alt="LinkedIn" className="h-10 w-10 cursor-pointer" />
-    </a>
+        <a href="https://www.linkedin.com/in/bishnupada-kamila-a16a19256" target="_blank" rel="noopener noreferrer">
+            <img src="/LinkedIn.webp" alt="LinkedIn" className="h-10 w-10 cursor-pointer" />
+        </a>
 
-    <a href="https://www.hackerrank.com/profile/bishnu_kamila_1" target="_blank" rel="noopener noreferrer">
-        <img src="/HackerRank.webp" alt="HackerRank" className="h-10 w-10 cursor-pointer" />
-    </a>
+        <a href="https://www.hackerrank.com/profile/bishnu_kamila_1" target="_blank" rel="noopener noreferrer">
+            <img src="/HackerRank.webp" alt="HackerRank" className="h-10 w-10 cursor-pointer" />
+        </a>
 
-    <a href="https://www.codechef.com/users/bishnukamila1" target="_blank" rel="noopener noreferrer">
-        <img src="/Twiter.png" alt="Twitter" className="h-10 w-10 cursor-pointer" />
-    </a>
+        <a href="https://www.codechef.com/users/bishnukamila1" target="_blank" rel="noopener noreferrer">
+            <img src="/Twiter.png" alt="Twitter" className="h-10 w-10 cursor-pointer" />
+        </a>
+    </div>
 </div>
+
 
 
 
