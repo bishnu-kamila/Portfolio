@@ -68,15 +68,15 @@ function Me() {
         <img src="/Git.png" alt="GitHub" className="h-10 w-10 block" />
     </a>
 
-    <a href="https://www.linkedin.com/in/bishnupada-kamila-a16a19256" target="_blank" rel="noopener noreferrer" className="block">
+    <a href="https://www.linkedin.com/in/bishnupada-kamila-a16a19256">
         <img src="/LinkedIn.webp" alt="LinkedIn" className="h-10 w-10 block" />
     </a>
 
-    <a href="https://www.hackerrank.com/profile/bishnu_kamila_1" target="_blank" rel="noopener noreferrer" className="block">
+    <a href="https://www.hackerrank.com/profile/bishnu_kamila_1">
         <img src="/HackerRank.webp" alt="HackerRank" className="h-10 w-10 block" />
     </a>
 
-    <a href="https://www.codechef.com/users/bishnukamila1" target="_blank" rel="noopener noreferrer" className="block">
+    <a href="https://www.codechef.com/users/bishnukamila1">
         <img src="/Twiter.png" alt="Twitter" className="h-10 w-10 block" />
     </a>
 </div>
