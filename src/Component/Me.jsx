@@ -9,6 +9,7 @@ import Projects from "./Projects/Projects";
 import UPMS from "./Projects/UPMS";
 import Parking from "./Projects/Parking";
 import Footer from "./Footer";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 function Me() {
 
@@ -65,7 +66,8 @@ function Me() {
 
 <div className="flex space-x-4">
     <a href="https://github.com/bishnu-kamila" >
-        <img src="/Git.png" alt="GitHub" className="h-10 w-10 block" />
+        
+        <FontAwesomeIcon icon="fa-brands fa-github" className="h-10 w-10 block"/>
     </a>
 
     <a href="https://www.linkedin.com/in/bishnupada-kamila-a16a19256">
