@@ -10,6 +10,7 @@ import UPMS from "./Projects/UPMS";
 import Parking from "./Projects/Parking";
 import Footer from "./Footer";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faHackerrank } from "@fortawesome/free-brands-svg-icons";
 
 function Me() {
 
@@ -71,11 +72,12 @@ function Me() {
     </a>
 
     <a href="https://www.linkedin.com/in/bishnupada-kamila-a16a19256">
-        <img src="/LinkedIn.webp" alt="LinkedIn" className="h-10 w-10 block" />
+    <FontAwesomeIcon icon="fa-brands fa-linkedin" className="h-10 w-10 block" ></FontAwesomeIcon>
     </a>
 
     <a href="https://www.hackerrank.com/profile/bishnu_kamila_1">
-        <img src="/HackerRank.webp" alt="HackerRank" className="h-10 w-10 block" />
+        
+        <FontAwesomeIcon icon={faHackerrank} style={{color: "#FFD43B",}} className="h-10 w-10 block"  />
     </a>
 
     <a href="https://www.codechef.com/users/bishnukamila1">
