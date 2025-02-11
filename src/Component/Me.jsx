@@ -81,7 +81,7 @@ function Me() {
     </a>
 
     <a href="https://www.codechef.com/users/bishnukamila1">
-        <img src="/Twiter.png" alt="Twitter" className="h-10 w-10 block"/>
+    
     </a>
 </div>
 
