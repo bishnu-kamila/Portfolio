@@ -10,7 +10,6 @@ const Footer = () => {
   return (
     <>
       <div className="flex flex-col lg:flex-row text-white ml-[20px] mb-[50px] lg:ml-[100px] mt-[80px]">
-        {/* Contact Info Section */}
         <motion.div
           variants={fadeIn("right", 0.2)}
           initial="hidden"
@@ -32,8 +31,6 @@ const Footer = () => {
             <h2 className="ml-[10px] mt-[-5px] text-lg sm:text-xl">Bhubaneswar, Odisha</h2>
           </div>
         </motion.div>
-
-        {/* About Me Section */}
         <motion.div
           variants={fadeIn("left", 0.2)}
           initial="hidden"
