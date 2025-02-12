@@ -68,20 +68,20 @@ function Me() {
 <div className="flex space-x-4">
     <a href="https://github.com/bishnu-kamila" >
         
-    <FontAwesomeIcon icon={faGithub} style={{color: "#FFD43B",}} className="h-10 w-10 block"/>
+    <FontAwesomeIcon icon={faGithub} style={{color: "#74C0FC",}} className="h-10 w-10 block"/>
     </a>
 
     <a href="https://www.linkedin.com/in/bishnupada-kamila-a16a19256">
-    <FontAwesomeIcon icon={faLinkedin} style={{color: "#FFD43B",}} className="h-10 w-10 block" />
+    <FontAwesomeIcon icon={faLinkedin} style={{color: "#74C0FC",}} className="h-10 w-10 block" />
     </a>
 
     <a href="https://www.hackerrank.com/profile/bishnu_kamila_1">
         
-        <FontAwesomeIcon icon={faHackerrank} style={{color: "#FFD43B",}} className="h-10 w-10 block"  />
+    <FontAwesomeIcon icon={faHackerrank} style={{color: "#74C0FC",}} className="h-10 w-10 block"  />
     </a>
 
     <a href="https://www.codechef.com/users/bishnukamila1">
-    <FontAwesomeIcon icon={faTwitter} style={{color: "#FFD43B",}} className="h-10 w-10 block" />
+    <FontAwesomeIcon icon={faTwitter} style={{color: "#74C0FC",}} className="h-10 w-10 block" />
     </a>
 </div>
 
