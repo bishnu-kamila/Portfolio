@@ -81,7 +81,7 @@ function Me() {
     </a>
 
     <a href="https://www.codechef.com/users/bishnukamila1">
-    <FontAwesomeIcon icon={faTwitter} style={{color: "#74C0FC",}} className="h-10 w-10 block" />
+    <img src="/codechef.png" alt="" className="h-10 w-10 block"/>
     </a>
 </div>
 
