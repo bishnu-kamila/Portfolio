@@ -10,7 +10,7 @@ import UPMS from "./Projects/UPMS";
 import Parking from "./Projects/Parking";
 import Footer from "./Footer";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faGithub, faHackerrank, faLinkedin, faTwitter } from "@fortawesome/free-brands-svg-icons";
+import { faGithub, faHackerrank, faLinkedin } from "@fortawesome/free-brands-svg-icons";
 
 function Me() {
 
