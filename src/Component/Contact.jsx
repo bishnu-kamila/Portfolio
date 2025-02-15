@@ -6,7 +6,7 @@ import { faEnvelope, faLocationDot, faPhoneVolume } from "@fortawesome/free-soli
 
 function Contact() {
   return (
-    <div className="text-white px-4 md:px-16 lg:px-32 py-16">
+    <div className="text-white px-4 md:px-16 lg:px-32 py-16 ml-[500px]">
       <motion.div
         variants={fadeIn("right", 0.2)}
         initial="hidden"
