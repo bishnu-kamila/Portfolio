@@ -13,32 +13,24 @@ function Contact() {
         whileInView={"show"}
         viewport={{ once: false, amount: 0.7 }}
       >
-        {/* Title */}
         <h1 className="text-2xl sm:text-3xl md:text-4xl font-bold text-center md:text-left">
           Bishnupada Kamila
         </h1>
 
-        {/* Contact Information */}
         <div className="mt-8 space-y-4">
-          {/* Email */}
           <div className="flex items-center space-x-3 text-lg sm:text-xl">
             <FontAwesomeIcon icon={faEnvelope} className="text-purple-400" />
             <h2>bishnupadakamila07@gmail.com</h2>
           </div>
-
-          {/* Phone */}
           <div className="flex items-center space-x-3 text-lg sm:text-xl">
             <FontAwesomeIcon icon={faPhoneVolume} />
             <h2>8596097739</h2>
           </div>
 
-          {/* Address */}
           <div className="flex items-center space-x-3 text-lg sm:text-xl">
             <FontAwesomeIcon icon={faLocationDot} />
             <h2>Bhubaneswar, Odisha</h2>
           </div>
-
-          {/* Pin Code */}
           <div className="flex items-center space-x-3 text-lg sm:text-xl">
             <FontAwesomeIcon icon={faLocationDot} />
             <h2>752050</h2>
