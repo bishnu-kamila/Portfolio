@@ -4,9 +4,9 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 const Education = () => {
   return (
     <div className="flex flex-col items-center justify-center min-h-screen px-4">
-      {/* Section for Education */}
+      
       <div className="text-white font-bold italic text-center text-2xl sm:text-3xl md:text-4xl space-y-8">
-        {/* Bachelor's Degree Section */}
+       
         <div
           data-aos="fade-down"
           className="flex flex-wrap items-center justify-center gap-4"
@@ -21,7 +21,7 @@ const Education = () => {
           </h1>
         </div>
 
-        {/* Master's Degree Section */}
+    
         <div
           data-aos="fade-up"
           className="flex flex-wrap items-center justify-center gap-4"
