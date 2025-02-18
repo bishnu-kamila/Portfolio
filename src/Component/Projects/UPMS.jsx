@@ -28,7 +28,6 @@ const UPMS = () => {
           />
         </div>
 
-        {/* Text Content Section */}
         <div className="text-white lg:flex-1 lg:max-w-[50%] lg:ml-16 mt-8 lg:mt-0">
           <h1
             data-aos="zoom-in-left"
@@ -136,7 +135,6 @@ const UPMS = () => {
             <h2 className="mr-4">MySQL</h2>
           </div>
 
-          {/* Action Buttons */}
           <div
             data-aos="fade-left"
             className="flex justify-center lg:justify-start mt-8 text-2xl font-bold"
@@ -151,7 +149,6 @@ const UPMS = () => {
         </div>
       </div>
 
-      {/* Divider */}
       <div className="ml-[30px] w-[1450px] h-[10px] bg-white rounded-2xl mt-16"></div>
     </>
   );
