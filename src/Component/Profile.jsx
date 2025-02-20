@@ -21,10 +21,7 @@ const Profile = () => {
             <h2 className="text-lg sm:text-xl">bishnupadakamila07@gmail.com</h2>
           </div>
 
-          <div className="flex items-center justify-center md:justify-start space-x-3">
-            <FontAwesomeIcon icon={faPhoneVolume} className="text-lg sm:text-xl" />
-            <h2 className="text-lg sm:text-xl">8596097739</h2>
-          </div>
+          
 
           <div className="flex items-center justify-center md:justify-start space-x-3">
             <FontAwesomeIcon icon={faLocationDot} className="text-gray-300 text-lg sm:text-xl" />

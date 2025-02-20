@@ -22,10 +22,7 @@ function Contact() {
             <FontAwesomeIcon icon={faEnvelope} className="text-purple-400" />
             <h2>bishnupadakamila07@gmail.com</h2>
           </div>
-          <div className="flex items-center space-x-3 text-lg sm:text-xl">
-            <FontAwesomeIcon icon={faPhoneVolume} />
-            <h2>8596097739</h2>
-          </div>
+          
 
           <div className="flex items-center space-x-3 text-lg sm:text-xl">
             <FontAwesomeIcon icon={faLocationDot} />

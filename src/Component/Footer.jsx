@@ -22,10 +22,7 @@ const Footer = () => {
             <FontAwesomeIcon icon={faEnvelope} style={{ color: "#B197FC" }} />
             <h2 className="ml-[10px] mt-[-5px] text-lg sm:text-xl">bishnupadakamila07@gmail.com</h2>
           </div>
-          <div className="flex items-center mt-4">
-            <FontAwesomeIcon icon={faPhoneVolume} />
-            <h2 className="ml-[10px] mt-[-5px] text-lg sm:text-xl">8596097739</h2>
-          </div>
+          
           <div className="flex items-center mt-4">
             <FontAwesomeIcon icon={faLocationDot} style={{ color: "#f7f7f8" }} />
             <h2 className="ml-[10px] mt-[-5px] text-lg sm:text-xl">Bhubaneswar, Odisha</h2>
