@@ -16,7 +16,6 @@ const UPMS = () => {
   return (
     <>
       <div className="flex flex-col lg:flex-row items-center justify-between px-4 lg:px-16 mt-10">
-        {/* Image Section */}
         <div
           data-aos="zoom-in-right"
           className="flex justify-center lg:flex-1 lg:max-w-[50%]"
