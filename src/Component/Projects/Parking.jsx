@@ -82,7 +82,6 @@ const Parking = () => {
           </div>
         </div>
 
-        {/* Image */}
         <div
           data-aos="zoom-in-left"
           className="lg:flex-1 flex justify-center lg:justify-end mt-8 lg:mt-0"
@@ -94,8 +93,6 @@ const Parking = () => {
           />
         </div>
       </div>
-
-      {/* Divider */}
       <div className="ml-[30px] w-[1450px] h-[10px] bg-white rounded-2xl mt-16"></div>
     </>
   );
