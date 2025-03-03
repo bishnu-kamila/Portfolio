@@ -65,7 +65,7 @@ const Parking = () => {
             <h1 className="font-bold mr-4">Technology Used: </h1>
             <h1 className="font-bold ml-2">Java</h1>
             <h1 className="font-bold ml-2">Swing</h1>
-            <h1 className="font-bold ml-2">JFrame</h1>
+            <h1 className="font-bold ml-2">J_Frame</h1>
             <h1 className="font-bold ml-2">MySQL</h1>
           </div>
 
