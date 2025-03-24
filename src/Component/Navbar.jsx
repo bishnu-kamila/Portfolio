@@ -41,7 +41,6 @@ const Navbar = () => {
             </Link>
           </div>
 
-          {/* Profile Image */}
           <div className="hidden sm:block">
             <Link to="/profile">
               <img
@@ -52,7 +51,6 @@ const Navbar = () => {
             </Link>
           </div>
 
-          {/* Mobile Menu Button */}
           <div className="sm:hidden">
             <button
               type="button"
@@ -90,7 +88,6 @@ const Navbar = () => {
         </div>
       </div>
 
-      {/* Mobile Menu */}
       {isMobileMenuOpen && (
         <div className="sm:hidden" id="mobile-menu">
           <div className="space-y-1 px-2 pt-2 pb-3">
