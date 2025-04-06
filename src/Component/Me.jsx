@@ -90,11 +90,9 @@ function Me() {
 
 
 
-                    </div>
-                </div>
             </div>
-
-            {/* Sections */}
+            </div>
+            </div>
             <Technology />
             <Education />
             <Projects />
